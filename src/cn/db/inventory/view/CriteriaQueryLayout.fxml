@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="749.0" prefWidth="1096.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.db.inventory.control.CriteriaQueryLayoutController">
+   <children>
+      <FlowPane alignment="CENTER" columnHalignment="CENTER" hgap="60.0" prefHeight="132.0" prefWidth="996.0">
+         <children>
+            <ComboBox fx:id="comboBox" prefHeight="40.0" prefWidth="238.0" />
+            <TextField fx:id="textField" onAction="#handleQuery" prefHeight="49.0" prefWidth="264.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Button fx:id="buttonQuery" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleQuery" prefHeight="46.0" prefWidth="152.0" text="查询" textAlignment="CENTER">
+               <font>
+                  <Font size="23.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets />
+               </FlowPane.margin>
+            </Button>
+         </children>
+      </FlowPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <TableView fx:id="tableView" editable="true" prefHeight="637.0" prefWidth="1096.0" BorderPane.alignment="CENTER">
+               <columns>
+                  <TableColumn fx:id="c1Column" prefWidth="90.0" text="C1" />
+                  <TableColumn fx:id="c2Column" prefWidth="119.0" text="C2" />
+                  <TableColumn fx:id="c3Column" prefWidth="169.0" text="c3" />
+                  <TableColumn fx:id="c4Column" prefWidth="158.0" text="c4" />
+                  <TableColumn fx:id="c5Column" prefWidth="162.0" text="c5" />
+                  <TableColumn fx:id="c6Column" prefWidth="167.0" text="c6" />
+                  <TableColumn fx:id="c7Column" prefWidth="103.0" text="c7" />
+               </columns>
+            </TableView>
+         </top>
+      </BorderPane>
+   </children>
+</VBox>
