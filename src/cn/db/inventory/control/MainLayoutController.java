@@ -20,8 +20,7 @@ public class MainLayoutController {
 
     private ManageLayoutController manageLayoutController;
     private CriteriaQueryLayoutController criteriaQueryLayoutController;
-    private BarChartLayoutController barChartLayoutController;
-    
+
     @FXML
     private TitledPane sysManageTpane;
     @FXML
@@ -109,22 +108,6 @@ public class MainLayoutController {
         }
     }
 
-    @FXML
-    private void showChartLayout() {
-        viewModern = ViewModern.CHARTLAYOUT;
-        try {
-            // Load StudentLayout from fxml file.
-            FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(MainApp.class.getResource("view/BarChartLayout.fxml"));
-            BorderPane chartLayout = loader.load();
-            borderPaneChart.setCenter(chartLayout);
-            barChartLayoutController = loader.getController();
-            barChartLayoutController.setMainLayoutController(this);
-            barChartLayoutController.display();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     @FXML
     public void showView() {
@@ -133,8 +116,6 @@ public class MainLayoutController {
                 manageLayoutController.display();
                 break;
             case CRITERIAQUERYLAYOUT: criteriaQueryLayoutController.display();
-                break;
-            case CHARTLAYOUT: barChartLayoutController.display();
                 break;
         }
     }

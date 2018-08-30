@@ -26,13 +26,13 @@
                            <font>
                               <Font name="System Bold" size="27.0" />
                            </font></Button>
-                        <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#displaySupplier" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="供应商信息" textFill="#d7b095">
+                        <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#displaySupplier" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="仓库信息" textFill="#d7b095">
                            <font>
                               <Font name="System Bold Italic" size="27.0" />
                            </font></Button>
                      </children></TilePane>
                </content></TitledPane>
-            <TitledPane animated="false" prefHeight="212.0" prefWidth="287.0" text="出入库业务">
+            <TitledPane animated="false" prefHeight="212.0" prefWidth="287.0" text="业务信息">
                <content>
                   <TilePane alignment="CENTER" prefHeight="102.0" prefWidth="285.0" vgap="30.0">
                      <children>

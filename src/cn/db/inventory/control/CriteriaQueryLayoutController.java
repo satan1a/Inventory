@@ -18,8 +18,8 @@ public class CriteriaQueryLayoutController {
     private ComboBox comboBox;
     ObservableList<String> optionGoods = FXCollections.observableArrayList("产品编号", "产品名称", "类型");
     ObservableList<String> optionRetrieval = FXCollections.observableArrayList("出货订单号", "产品编号", "日期");
-    ObservableList<String> optionStorage = FXCollections.observableArrayList("进货订单号", "产品编号", "供应商编号", "操作员");
-    ObservableList<String> optionSupplier = FXCollections.observableArrayList("供应商编号", "厂商名", "联系人");
+    ObservableList<String> optionStorage = FXCollections.observableArrayList("进货订单号", "产品编号", "仓库编号", "操作员");
+    ObservableList<String> optionSupplier = FXCollections.observableArrayList("仓库编号", "仓库名", "联系人");
     ObservableList<String> optionUser = FXCollections.observableArrayList("用户编号", "用户名", "角色类型");
     @FXML
     private TextField textField;	
@@ -82,9 +82,9 @@ public class CriteriaQueryLayoutController {
                 break;
             case SUPPLIER:
                 switch (conditionName) {
-                    case "供应商编号": result = supplierDAO.selectById(condition);
+                    case "仓库编号": result = supplierDAO.selectById(condition);
                         break;
-                    case "厂商名": result = supplierDAO.selectByName(condition);
+                    case "仓库名": result = supplierDAO.selectByName(condition);
                         break;
                     case "联系人": result = supplierDAO.selectByContactMan(condition);
                         break;
@@ -96,7 +96,7 @@ public class CriteriaQueryLayoutController {
                         break;
                     case "产品编号": result = storageDAO.selectByGoodsId(condition);
                         break;
-                    case "供应商编号": result = storageDAO.selectBySupplierId(condition);
+                    case "仓库编号": result = storageDAO.selectBySupplierId(condition);
                         break;
                     case "操作员": result = storageDAO.selectByOperator(condition);
                 }
@@ -166,7 +166,7 @@ public class CriteriaQueryLayoutController {
         c4Column.setText("库存");
         c5Column.setText("库存上限");
         c6Column.setText("库存下限");
-        c7Column.setText("供应商编号");
+        c7Column.setText("仓库编号");
         c5Column.setVisible(true);
         c6Column.setVisible(true);
         c7Column.setVisible(false);
@@ -184,8 +184,8 @@ public class CriteriaQueryLayoutController {
         c4Column.setCellValueFactory(new PropertyValueFactory<>("phone"));
         c5Column.setCellValueFactory(new PropertyValueFactory<>("contactMan"));
         c6Column.setCellValueFactory(new PropertyValueFactory<>("email"));
-        c1Column.setText("供应商编号");
-        c2Column.setText("厂商名");
+        c1Column.setText("仓库编号");
+        c2Column.setText("仓库名");
         c3Column.setText("地址");
         c4Column.setText("电话");
         c5Column.setText("联系人");
@@ -210,7 +210,7 @@ public class CriteriaQueryLayoutController {
         c7Column.setCellValueFactory(new PropertyValueFactory<>("operator"));
         c1Column.setText("进货订单号");
         c2Column.setText("商品编号");
-        c5Column.setText("供应商编号");
+        c5Column.setText("仓库编号");
         c4Column.setText("数量");
         c3Column.setText("商品名称");
         c6Column.setText("日期");

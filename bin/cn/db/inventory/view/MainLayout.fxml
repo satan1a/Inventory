@@ -26,7 +26,7 @@
                            <font>
                               <Font name="System Bold" size="27.0" />
                            </font></Button>
-                        <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#displaySupplier" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="供应商信息" textFill="#d7b095">
+                        <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#displaySupplier" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="仓库信息" textFill="#d7b095">
                            <font>
                               <Font name="System Bold Italic" size="27.0" />
                            </font></Button>
