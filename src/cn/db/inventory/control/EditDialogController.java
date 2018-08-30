@@ -1,5 +1,6 @@
 package cn.db.inventory.control;
 
+
 import cn.db.inventory.model.*;
 import cn.db.inventory.until.DebugLog;
 import javafx.fxml.FXML;
@@ -9,6 +10,11 @@ import javafx.stage.Stage;
 
 import java.sql.Date;
 
+/**
+ * 【控制器】
+ *  功能：修改记录
+ *  对应：记录管理 选项中的修改选项
+ */
 public class EditDialogController {
 
     private boolean okClicked = false;
@@ -51,6 +57,7 @@ public class EditDialogController {
 
     /**
      * Sets the stage of this dialog.
+     *
      * @param dialogStage
      */
     public void setDialogStage(Stage dialogStage) {
@@ -179,7 +186,7 @@ public class EditDialogController {
                     ((Goods) o).setInventory((Integer.valueOf(t4Field.getText())));
                     ((Goods) o).setMaxnum(Integer.valueOf(t5Field.getText()));
                     ((Goods) o).setMinnum(Integer.valueOf(t6Field.getText()));
-                   
+
                     break;
                 case RETRIEVAL:
                     ((Retrieval) o).setId(t1Field.getText());
@@ -230,6 +237,7 @@ public class EditDialogController {
 
     /**
      * Validates the user input in the text fields.
+     *
      * @return true if the input is valid
      */
     private boolean isInputValid() {
@@ -244,11 +252,11 @@ public class EditDialogController {
         if (t3Field.getText() == null || t3Field.getText().length() == 0) {
             errorMessage += "No valid t3Field!\n";
         }
-        if (modern != Modern.GOODS){
-        if (t4Field.getText() == null || t4Field.getText().length() == 0) {
-            errorMessage += "No valid t4Field!\n";
+        if (modern != Modern.GOODS) {
+            if (t4Field.getText() == null || t4Field.getText().length() == 0) {
+                errorMessage += "No valid t4Field!\n";
+            }
         }
-    }
         if (modern != Modern.USER) {
             if (t5Field.getText() == null || t5Field.getText().length() == 0) {
                 errorMessage += "No valid t5Field!\n";

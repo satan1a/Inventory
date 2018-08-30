@@ -12,6 +12,11 @@ import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.util.List;
 
+/**
+ * 【控制器】
+ *  功能：管理控制层下的各个控制器Controller
+ *  对应：记录管理 选项
+ */
 public class ManageLayoutController {
 
     private MainLayoutController mainLayoutController;
@@ -71,19 +76,12 @@ public class ManageLayoutController {
                 Retrieval retrieval = new Retrieval();
                 mainApp.showEditDialog(retrieval, modern);
                 retrievalDAO.add(retrieval);
-//                Goods goods1 = goodsDAO.selectById(retrieval.getGoodsId()).get(0);
-//                goods1.setInventory(goods1.getInventory() - retrieval.getNumber());
-//                goodsDAO.update(goods1);
                 displayAllRetrieval();
                 break;
             case STORAGE:
                 Storage storage = new Storage();
                 mainApp.showEditDialog(storage, modern);
                 storageDAO.add(storage);
-                
-//                Goods goods2 = goodsDAO.selectById(storage.getGoodsId()).get(0);
-//                goods2.setInventory(goods2.getInventory() + storage.getNumber());
-//                goodsDAO.update(goods2);
                 displayAllStorage();
                 break;
             case SUPPLIER:

@@ -1,4 +1,6 @@
 package cn.db.inventory.control;
+
+
 import cn.db.inventory.MainApp;
 import cn.db.inventory.dao.impl.UserDAOimpl;
 import cn.db.inventory.model.User;
@@ -8,6 +10,11 @@ import javafx.scene.control.*;
 import javafx.scene.effect.Reflection;
 import javafx.scene.layout.VBox;
 
+/**
+ * 【控制器】
+ *  功能：登入验证
+ *  对应：登入界面 中的登入验证
+ */
 public class LoginDialogController {
 
     private boolean loginSuccess = false;
@@ -45,7 +52,8 @@ public class LoginDialogController {
 
     /**
      * Is called by the main application to give a reference back to itself.
-     *q
+     * q
+     *
      * @param mainApp
      */
     public void setMainApp(MainApp mainApp) {
@@ -82,7 +90,7 @@ public class LoginDialogController {
     private boolean checkPassword(String username, String password) {
         UserDAOimpl userDAOimpl = new UserDAOimpl();
         User user = userDAOimpl.CheckUser(username, password);
-        if ( user != null) {
+        if (user != null) {
             mainApp.setUser(user);
             return true;
         }

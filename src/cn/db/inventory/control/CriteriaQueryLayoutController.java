@@ -12,6 +12,11 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import java.sql.Date;
 import java.util.List;
 
+/**
+ * 【控制器】
+ * 功能：条件查询记录
+ *
+ */
 public class CriteriaQueryLayoutController {
     private MainLayoutController mainLayoutController;
     @FXML
@@ -22,7 +27,7 @@ public class CriteriaQueryLayoutController {
     ObservableList<String> optionSupplier = FXCollections.observableArrayList("仓库编号", "仓库名", "联系人");
     ObservableList<String> optionUser = FXCollections.observableArrayList("用户编号", "用户名", "角色类型");
     @FXML
-    private TextField textField;	
+    private TextField textField;
     @FXML
     private Button buttonQuery;
     @FXML
@@ -72,52 +77,68 @@ public class CriteriaQueryLayoutController {
         switch (modern) {
             case GOODS:
                 switch (conditionName) {
-                    case "产品编号": result = goodsDAO.selectById(condition);
+                    case "产品编号":
+                        result = goodsDAO.selectById(condition);
                         break;
-                    case "产品名称": result = goodsDAO.selectByName(condition);
+                    case "产品名称":
+                        result = goodsDAO.selectByName(condition);
                         break;
-                    case "类型": result = goodsDAO.selectByType(Integer.valueOf(condition));
+                    case "类型":
+                        result = goodsDAO.selectByType(Integer.valueOf(condition));
                         break;
                 }
                 break;
             case SUPPLIER:
                 switch (conditionName) {
-                    case "仓库编号": result = supplierDAO.selectById(condition);
+                    case "仓库编号":
+                        result = supplierDAO.selectById(condition);
                         break;
-                    case "仓库名": result = supplierDAO.selectByName(condition);
+                    case "仓库名":
+                        result = supplierDAO.selectByName(condition);
                         break;
-                    case "联系人": result = supplierDAO.selectByContactMan(condition);
+                    case "联系人":
+                        result = supplierDAO.selectByContactMan(condition);
                         break;
                 }
                 break;
             case STORAGE:
                 switch (conditionName) {
-                    case "进货订单号": result = storageDAO.selectById(condition);
+                    case "进货订单号":
+                        result = storageDAO.selectById(condition);
                         break;
-                    case "产品编号": result = storageDAO.selectByGoodsId(condition);
+                    case "产品编号":
+                        result = storageDAO.selectByGoodsId(condition);
                         break;
-                    case "仓库编号": result = storageDAO.selectBySupplierId(condition);
+                    case "仓库编号":
+                        result = storageDAO.selectBySupplierId(condition);
                         break;
-                    case "操作员": result = storageDAO.selectByOperator(condition);
+                    case "操作员":
+                        result = storageDAO.selectByOperator(condition);
                 }
                 break;
             case RETRIEVAL:
                 switch (conditionName) {
-                    case "出货订单号": result = retrievalDAO.selectById(condition);
+                    case "出货订单号":
+                        result = retrievalDAO.selectById(condition);
                         break;
-                    case "产品编号": result = retrievalDAO.selectByGoodsId(condition);
+                    case "产品编号":
+                        result = retrievalDAO.selectByGoodsId(condition);
                         break;
-                    case "日期": result = retrievalDAO.selectByDateAfter(Date.valueOf(condition));
+                    case "日期":
+                        result = retrievalDAO.selectByDateAfter(Date.valueOf(condition));
                         break;
                 }
                 break;
             case USER:
                 switch (conditionName) {
-                    case "用户编号": result = userDAO.selectById(condition);
+                    case "用户编号":
+                        result = userDAO.selectById(condition);
                         break;
-                    case "用户名": result = userDAO.selectByName(condition);
+                    case "用户名":
+                        result = userDAO.selectByName(condition);
                         break;
-                    case "角色类型": result = userDAO.selectByRole(condition);
+                    case "角色类型":
+                        result = userDAO.selectByRole(condition);
                         break;
                 }
                 break;
@@ -140,7 +161,7 @@ public class CriteriaQueryLayoutController {
                 break;
             case RETRIEVAL:
                 displayRetrieval();
-                
+
                 break;
             case USER:
                 displayUser();
@@ -219,7 +240,7 @@ public class CriteriaQueryLayoutController {
         c6Column.setVisible(true);
         c7Column.setVisible(true);
         List<Storage> storageList = storageDAO.selectAll();
-        tableView. setItems(FXCollections.observableArrayList(storageList));
+        tableView.setItems(FXCollections.observableArrayList(storageList));
         tableView.refresh();
     }
 

@@ -11,6 +11,10 @@ import javafx.scene.layout.VBox;
 
 import java.io.IOException;
 
+/**
+ * 【控制器】
+ *  功能：读取view层里的fxml，加载主页面
+ */
 public class MainLayoutController {
     // Reference to the main application.
     private User user;
@@ -47,8 +51,8 @@ public class MainLayoutController {
         modern = Modern.GOODS;
         viewModern = ViewModern.CRITERIAQUERYLAYOUT;
         showCriteriaQueryLayout();
-        
-       
+
+
     }
 
     /**
@@ -77,7 +81,7 @@ public class MainLayoutController {
     public void showManageLayout() {
         viewModern = ViewModern.MANAGELAYOUT;
         try {
-        	
+
             // Load StudentLayout from fxml file.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("view/ManageLayout.fxml"));
@@ -86,7 +90,7 @@ public class MainLayoutController {
             manageLayoutController = loader.getController();
             manageLayoutController.setMainLayoutController(this);
             manageLayoutController.display();
-           
+
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -115,7 +119,8 @@ public class MainLayoutController {
             case MANAGELAYOUT:
                 manageLayoutController.display();
                 break;
-            case CRITERIAQUERYLAYOUT: criteriaQueryLayoutController.display();
+            case CRITERIAQUERYLAYOUT:
+                criteriaQueryLayoutController.display();
                 break;
         }
     }
