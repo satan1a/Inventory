@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01193dc7-120b-4f7f-98f2-b9f943678454" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/view/LoginDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/view/LoginDialog.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/view/MainLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/view/MainLayout.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,9 +37,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cat.jpg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cat.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/resources/images/cat.jpg">
           <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="MainLayout.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/view/MainLayout.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -113,13 +123,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="inventory" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Inventory2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inventory2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="inventory" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,15 +220,16 @@
       <updated>1535609212990</updated>
       <workItem from="1535609218438" duration="4765000" />
       <workItem from="1535617184553" duration="759000" />
-      <workItem from="1535619296561" duration="2938000" />
+      <workItem from="1535619296561" duration="4387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8462000" />
+    <option name="totallyTimeSpent" value="9911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -377,10 +381,6 @@
           <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/view/MainLayout.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor" />
@@ -567,6 +567,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/resources/images/cat.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/view/MainLayout.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

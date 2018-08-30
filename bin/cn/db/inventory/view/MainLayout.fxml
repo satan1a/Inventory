@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.chart.*?>
 <?import javafx.geometry.*?>
@@ -8,47 +9,41 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<SplitPane dividerPositions="0.22537562604340566" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="890.0" minWidth="1293.0" prefHeight="890.0" prefWidth="1293.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.db.inventory.control.MainLayoutController">
+<SplitPane dividerPositions="0.22537562604340566" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="890.0" minWidth="1293.0" prefHeight="909.0" prefWidth="1293.0" style="-fx-background-color: #f0f0f0;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.db.inventory.control.MainLayoutController">
   <items>
-      <VBox maxWidth="280.0" prefWidth="280.0">
+      <VBox maxWidth="287.0" prefHeight="921.0" prefWidth="287.0">
          <children>
-            <Label alignment="CENTER" prefHeight="90.0" prefWidth="287.0" style="-fx-background-color: lightblue;" text="管理菜单栏" textFill="#235572">
+            <Label alignment="CENTER" prefHeight="75.0" prefWidth="287.0" style="-fx-border-width: 4; -fx-border-color: black; -fx-background-color: #253F5B;" text="MENU" textAlignment="CENTER" textFill="#d7b095">
                <font>
-                  <Font size="30.0" />
+                  <Font name="System Bold Italic" size="33.0" />
                </font>
-               <VBox.margin>
-                  <Insets />
-               </VBox.margin>
-               <padding>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-               </padding>
             </Label>
             <TitledPane prefHeight="206.0" prefWidth="287.0" text="基础信息">
                <content>
                   <TilePane alignment="CENTER" prefHeight="156.0" prefWidth="285.0" vgap="40.0">
                      <children>
-                        <Button mnemonicParsing="false" onAction="#displayGoods" prefHeight="45.0" prefWidth="250.0" style="-fx-background-color: #9db6e7; -fx-border-color: black; -fx-border-radius: 10;" text="库存信息" textFill="#dd0404">
+                        <Button mnemonicParsing="false" onAction="#displayGoods" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="库存信息" textFill="#d7b095">
                            <font>
-                              <Font size="23.0" />
+                              <Font name="System Bold" size="27.0" />
                            </font></Button>
-                        <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#displaySupplier" prefHeight="50.0" prefWidth="245.0" style="-fx-background-color: #9db6e7; -fx-border-radius: 10; -fx-border-color: black;" text="供应商信息">
+                        <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#displaySupplier" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="供应商信息" textFill="#d7b095">
                            <font>
-                              <Font size="23.0" />
+                              <Font name="System Bold Italic" size="27.0" />
                            </font></Button>
                      </children></TilePane>
                </content></TitledPane>
-            <TitledPane animated="false" prefHeight="212.0" prefWidth="287.0" text="业务">
+            <TitledPane animated="false" prefHeight="212.0" prefWidth="287.0" text="出入库业务">
                <content>
                   <TilePane alignment="CENTER" prefHeight="102.0" prefWidth="285.0" vgap="30.0">
                      <children>
-                        <Button mnemonicParsing="false" onAction="#displayStorage" prefHeight="50.0" prefWidth="245.0" style="-fx-background-color: #9db6e7; -fx-border-color: black; -fx-border-radius: 10;" text="入库信息">
+                        <Button mnemonicParsing="false" onAction="#displayStorage" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="入库信息" textFill="#d7b095">
                            <font>
-                              <Font size="23.0" />
+                              <Font name="System Bold" size="27.0" />
                            </font>
                         </Button>
-                        <Button mnemonicParsing="false" onAction="#displayRetrieval" prefHeight="50.0" prefWidth="245.0" style="-fx-background-color: #9db6e7; -fx-border-color: black; -fx-border-radius: 10;" text="出库信息">
+                        <Button mnemonicParsing="false" onAction="#displayRetrieval" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="出库信息" textFill="#d7b095">
                            <font>
-                              <Font size="23.0" />
+                              <Font name="System Bold" size="27.0" />
                            </font>
                         </Button>
                      </children></TilePane>
@@ -58,9 +53,9 @@
                <content>
                   <TilePane alignment="CENTER" prefHeight="102.0" prefWidth="285.0" vgap="30.0">
                      <children>
-                        <Button mnemonicParsing="false" onAction="#displayUser" prefHeight="50.0" prefWidth="245.0" style="-fx-background-color: #9db6e7; -fx-border-radius: 10; -fx-border-color: black;" text="用户管理">
+                        <Button mnemonicParsing="false" onAction="#displayUser" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="用户管理" textFill="#d7b095">
                            <font>
-                              <Font size="23.0" />
+                              <Font name="System Bold" size="27.0" />
                            </font>
                         </Button>
                      </children></TilePane>
@@ -70,14 +65,14 @@
                <content>
                   <TilePane alignment="CENTER" prefHeight="212.0" prefWidth="285.0" vgap="30.0">
                      <children>
-                        <Button mnemonicParsing="false" onAction="#handleExit" prefHeight="50.0" prefWidth="245.0" style="-fx-background-color: #9db6e7; -fx-border-color: black; -fx-border-radius: 10;" text="退出">
+                        <Button mnemonicParsing="false" onAction="#handleExit" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="退出" textFill="#d7b095">
                            <font>
-                              <Font size="23.0" />
+                              <Font name="System Bold" size="27.0" />
                            </font>
                         </Button>
-                        <Button mnemonicParsing="false" onAction="#handleSwitch" prefHeight="50.0" prefWidth="245.0" style="-fx-background-color: #9db6e7; -fx-border-radius: 10; -fx-border-color: black;" text="切换用户">
+                        <Button mnemonicParsing="false" onAction="#handleSwitch" prefHeight="54.0" prefWidth="193.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="切换用户" textFill="#d7b095">
                            <font>
-                              <Font size="23.0" />
+                              <Font name="System Bold" size="27.0" />
                            </font>
                         </Button>
                      </children>
@@ -92,9 +87,9 @@
                <children>
                   <FlowPane alignment="CENTER" opacity="0.78" prefHeight="84.0" prefWidth="945.0" style="-fx-background-radius: 20; -fx-background-image: ;">
                      <children>
-                        <Label fx:id="infoTitleLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="64.0" prefWidth="966.0" style="-fx-background-color: lightblue; -fx-border-color: black; -fx-border-width: 4;" text="库存信息" textAlignment="CENTER" textFill="#310a3f">
+                        <Label fx:id="infoTitleLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="64.0" prefWidth="966.0" style="-fx-background-color: #54678F; -fx-border-color: black; -fx-border-width: 4;" text="库存信息" textAlignment="CENTER" textFill="#d7b095">
                            <font>
-                              <Font name="SimHei" size="36.0" />
+                              <Font name="System Bold" size="36.0" />
                            </font>
                         </Label>
                      </children>
@@ -104,11 +99,6 @@
                       <Tab fx:id="tabQuery" onSelectionChanged="#showCriteriaQueryLayout" text="条件查询">
                            <content>
                               <BorderPane fx:id="borderPaneQuery" prefHeight="200.0" prefWidth="200.0" />
-                           </content>
-                        </Tab>
-                        <Tab onSelectionChanged="#showChartLayout" text="统计览图">
-                           <content>
-                              <BorderPane fx:id="borderPaneChart" prefHeight="200.0" prefWidth="200.0" />
                            </content>
                         </Tab>
                       <Tab fx:id="tabManage" onSelectionChanged="#showManageLayout" text="记录管理">
