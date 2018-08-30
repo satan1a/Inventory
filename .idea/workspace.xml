@@ -2,78 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01193dc7-120b-4f7f-98f2-b9f943678454" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/db/inventory/dao/impl/GoodsTypeDAOimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/db/inventory/model/GoodsType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/db/inventory/model/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/db/inventory/model/Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/db/inventory/model/TypeCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.ids" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jiyun.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Hibernate.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/model/Goods.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/model/Retrieval.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/model/Storage.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/model/Supplier.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/model/User.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/resources/images/guet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/resources/images/title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/view/BarChartLayout.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/view/CriteriaQueryLayout.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/view/EditDialog.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/view/LoginDialog.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/view/MainLayout.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/accjiyun/inventory/view/ManageLayout.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/control/BarChartLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/control/BarChartLayoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/control/CriteriaQueryLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/control/CriteriaQueryLayoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/control/EditDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/control/EditDialogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/control/LoginDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/control/LoginDialogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/control/MainLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/control/MainLayoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/control/ManageLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/control/ManageLayoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/control/Modern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/control/ViewModern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/dao/GoodsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/dao/GoodsTypeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/dao/RetrievalDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/dao/RetrievalDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/dao/StorageDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/dao/SupplierDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/dao/SupplierDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/dao/impl/GoodsDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/dao/impl/GoodsDAOimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/dao/impl/RetrievalDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/dao/impl/RetrievalDAOimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/dao/impl/StorageDAOimpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/dao/impl/SupplierDAOimpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/dao/impl/UserDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/dao/impl/UserDAOimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/model/Goods.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/model/Goods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/model/Retrieval.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/model/Retrieval.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/model/Storage.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/model/Storage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/model/Supplier.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/model/Supplier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/model/User.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/resources/images/title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/until/DebugLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/until/HibernateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/until/SessionUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/view/BarChartLayout.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/view/CriteriaQueryLayout.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/view/EditDialog.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/view/LoginDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/view/LoginDialog.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/view/MainLayout.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/accjiyun/inventory/view/ManageLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/view/ManageLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/resources/images/guet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/view/LoginDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/db/inventory/view/LoginDialog.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +27,22 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cat.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/resources/images/cat.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,6 +79,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -166,14 +112,19 @@
               <item name="Inventory2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="inventory" type="462c0819:PsiDirectoryNode" />
-              <item name="until" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Inventory2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inventory2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,45 +217,45 @@
       <updated>1535609212990</updated>
       <workItem from="1535609218438" duration="4765000" />
       <workItem from="1535617184553" duration="759000" />
+      <workItem from="1535619296561" duration="2938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5524000" />
+    <option name="totallyTimeSpent" value="8462000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32234043" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24895833" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="JSF" order="3" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32234043" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Persistence" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24791667" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
     </layout>
@@ -434,9 +385,7 @@
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -567,9 +516,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/resources/images/guet.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/resources/images/cat.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/until/AlertUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -598,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/StorageDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -618,6 +557,16 @@
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/resources/images/cat.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
