@@ -12,7 +12,6 @@ import org.hibernate.criterion.Restrictions;
 import java.util.ArrayList;
 import java.util.List;
 
-
 @SuppressWarnings("unused")
 public class GoodsDAOimpl implements GoodsDAO {
 

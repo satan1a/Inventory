@@ -12,8 +12,8 @@ import java.sql.Date;
 
 /**
  * 【控制器】
- *  功能：修改记录
- *  对应：记录管理 选项中的修改选项
+ * 功能：修改记录
+ * 对应：记录管理 选项中的修改选项
  */
 public class EditDialogController {
 

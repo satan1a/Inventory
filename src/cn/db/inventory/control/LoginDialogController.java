@@ -12,8 +12,8 @@ import javafx.scene.layout.VBox;
 
 /**
  * 【控制器】
- *  功能：登入验证
- *  对应：登入界面 中的登入验证
+ * 功能：登入验证
+ * 对应：登入界面 中的登入验证
  */
 public class LoginDialogController {
 

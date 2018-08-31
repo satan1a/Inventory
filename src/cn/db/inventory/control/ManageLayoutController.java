@@ -14,8 +14,8 @@ import java.util.List;
 
 /**
  * 【控制器】
- *  功能：管理控制层下的各个控制器Controller
- *  对应：记录管理 选项
+ * 功能：管理控制层下的各个控制器Controller
+ * 对应：记录管理 选项
  */
 public class ManageLayoutController {
 

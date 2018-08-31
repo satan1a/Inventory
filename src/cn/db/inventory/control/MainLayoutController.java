@@ -12,7 +12,7 @@ import java.io.IOException;
 
 /**
  * 【控制器】
- *  功能：读取view层里的fxml，加载主页面
+ * 功能：读取view层里的fxml，加载主页面
  */
 public class MainLayoutController {
     // Reference to the main application.
