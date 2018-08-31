@@ -8,12 +8,14 @@ import java.util.List;
 public interface StorageDAO {
     /**
      * Get all storage form mysql
+     *
      * @return List<Storage>
      */
     public List<Storage> selectAll();
 
     /**
      * delete storage form mysql
+     *
      * @param storage
      * @return true if delete storage successful
      */
@@ -21,6 +23,7 @@ public interface StorageDAO {
 
     /**
      * add storage to mysql
+     *
      * @param storage
      * @return true if add storage to mysql successful
      */
@@ -28,6 +31,7 @@ public interface StorageDAO {
 
     /**
      * update storage
+     *
      * @param storage
      * @return true if update storage successful
      */
@@ -35,6 +39,7 @@ public interface StorageDAO {
 
     /**
      * select storage by id
+     *
      * @param id
      * @return List<Storage> if select successful
      */
@@ -42,6 +47,7 @@ public interface StorageDAO {
 
     /**
      * select storage by GoodsId
+     *
      * @param goodsId
      * @return List<Storage> if select successful
      */
@@ -49,6 +55,7 @@ public interface StorageDAO {
 
     /**
      * select storage by supplierId
+     *
      * @param supplierId
      * @return List<Storage> if select successful
      */
@@ -56,6 +63,7 @@ public interface StorageDAO {
 
     /**
      * select storage by operator
+     *
      * @param operator
      * @return List<Storage> if select successful
      */

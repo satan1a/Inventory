@@ -14,11 +14,13 @@ import java.util.List;
 
 
 @SuppressWarnings("unused")
-public class GoodsDAOimpl implements GoodsDAO{
+public class GoodsDAOimpl implements GoodsDAO {
 
     SessionUtil sessionUtil = new SessionUtil();
+
     /**
      * Get all goods
+     *
      * @return List<Goods>
      */
     @Override
@@ -28,6 +30,7 @@ public class GoodsDAOimpl implements GoodsDAO{
 
     /**
      * delete goods
+     *
      * @param goods
      */
     @Override
@@ -38,6 +41,7 @@ public class GoodsDAOimpl implements GoodsDAO{
 
     /**
      * add goods to mysql
+     *
      * @param goods
      * @return true if add goods successful
      */
@@ -49,6 +53,7 @@ public class GoodsDAOimpl implements GoodsDAO{
 
     /**
      * update goods
+     *
      * @param goods
      * @return true if update goods successful
      */
@@ -60,6 +65,7 @@ public class GoodsDAOimpl implements GoodsDAO{
 
     /**
      * select goods by id
+     *
      * @param id
      * @return Goods if select successful
      */
@@ -70,19 +76,21 @@ public class GoodsDAOimpl implements GoodsDAO{
 
     /**
      * select goods by name
+     *
      * @param name
      * @return List<Goods> if select successful
      */
     @Override
     public List<Goods> selectByName(String name) {
         Session session = HibernateUtil.getSession();
-        List<Goods> goodsList = session.createCriteria(Goods.class)
+        List goodsList = session.createCriteria(Goods.class)
                 .add(Restrictions.like("name", "%" + name + "%")).list();
         return goodsList;
     }
 
     /**
      * select goods by type
+     *
      * @param type
      * @return List<Goods> if select successful
      */
@@ -96,6 +104,7 @@ public class GoodsDAOimpl implements GoodsDAO{
 
     /**
      * get the count group by goods type.
+     *
      * @return the list of type.
      */
     @Override

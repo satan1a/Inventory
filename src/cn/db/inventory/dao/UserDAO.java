@@ -7,7 +7,6 @@ import java.util.List;
 
 public interface UserDAO {
     /**
-     *
      * @param userName
      * @param passWord
      * @return User if the userName and passWord is all right
@@ -16,12 +15,14 @@ public interface UserDAO {
 
     /**
      * Get all users
+     *
      * @return List<User>
      */
     public List<User> selectAll();
 
     /**
      * delete user from mysql
+     *
      * @param user
      * @return true if delete successful
      */
@@ -29,6 +30,7 @@ public interface UserDAO {
 
     /**
      * add user to mysql
+     *
      * @param user
      * @return true if add user to mysql successful
      */
@@ -36,6 +38,7 @@ public interface UserDAO {
 
     /**
      * update user
+     *
      * @param user
      * @return true if update user successful
      */
@@ -43,6 +46,7 @@ public interface UserDAO {
 
     /**
      * select user by id
+     *
      * @param id
      * @return List<User>
      */
@@ -50,6 +54,7 @@ public interface UserDAO {
 
     /**
      * select user by role
+     *
      * @param role
      * @return List<User> if select successful
      */
@@ -57,6 +62,7 @@ public interface UserDAO {
 
     /**
      * select user by like name
+     *
      * @param username
      * @return List<User>
      */

@@ -12,7 +12,7 @@ import org.hibernate.criterion.Restrictions;
 
 import java.util.List;
 
-public class GoodsTypeDAOimpl implements GoodsTypeDAO{
+public class GoodsTypeDAOimpl implements GoodsTypeDAO {
 
     @Override
     public GoodsType getTypeName(int id) {

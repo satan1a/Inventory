@@ -8,12 +8,14 @@ import java.util.Map;
 public interface SupplierDAO {
     /**
      * Get all supplier
+     *
      * @return List<Supplier>
      */
     public List<Supplier> selectAll();
 
     /**
      * delete supplier from mysql
+     *
      * @param supplier
      * @return true if delete successful
      */
@@ -21,6 +23,7 @@ public interface SupplierDAO {
 
     /**
      * add supplier to mysql
+     *
      * @param supplier
      * @return true if add supplier to mysql successful
      */
@@ -28,6 +31,7 @@ public interface SupplierDAO {
 
     /**
      * update supplier
+     *
      * @param supplier
      * @return true if update supplier successful
      */
@@ -35,6 +39,7 @@ public interface SupplierDAO {
 
     /**
      * select supplier by id
+     *
      * @param id
      * @return List<Supplier> if select successful
      */
@@ -42,6 +47,7 @@ public interface SupplierDAO {
 
     /**
      * select supplier by name
+     *
      * @param name
      * @return List<Supplier> if select successful
      */
@@ -49,6 +55,7 @@ public interface SupplierDAO {
 
     /**
      * select supplier by contactMan
+     *
      * @param contactMan
      * @return List<Supplier>
      */
@@ -56,6 +63,7 @@ public interface SupplierDAO {
 
     /**
      * select all supplier with whose sum of storage number and inventory number
+     *
      * @return List<Map> if select successful
      * supplier id mapped key 'id'
      * supplier name mapped key 'name'

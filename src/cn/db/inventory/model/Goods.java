@@ -16,12 +16,13 @@ public class Goods {
     private Integer minnum;
     private String supplierId;
 
-    public void get1(String id,String name,Integer type,Integer inventory) {
-		this.id=id;
-		this.name=name;
-		this.type=type;
-		this.inventory=inventory;
- 	}
+    public void get1(String id, String name, Integer type, Integer inventory) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.inventory = inventory;
+    }
+
     @Id
     @Column(name = "id", nullable = false, length = 255)
     public String getId() {
@@ -111,5 +112,5 @@ public class Goods {
 
         return Objects.hash(id, name, type, inventory, maxnum, minnum, supplierId);
     }
- 
+
 }

@@ -8,18 +8,21 @@ public interface GoodsDAO {
 
     /**
      * Get all goods
+     *
      * @return List<Goods>
      */
     public List<Goods> selectAll();
 
     /**
      * delete goods
+     *
      * @param goods
      */
     public boolean delete(Goods goods);
 
     /**
      * add goods to mysql
+     *
      * @param goods
      * @return true if add goods successful
      */
@@ -27,6 +30,7 @@ public interface GoodsDAO {
 
     /**
      * update goods
+     *
      * @param goods
      * @return true if update goods successful
      */
@@ -34,6 +38,7 @@ public interface GoodsDAO {
 
     /**
      * select goods by id
+     *
      * @param id
      * @return List<Goods> if select successful
      */
@@ -41,6 +46,7 @@ public interface GoodsDAO {
 
     /**
      * select goods by name
+     *
      * @param name
      * @return List<Goods> if select successful
      */
@@ -48,6 +54,7 @@ public interface GoodsDAO {
 
     /**
      * select goods by type
+     *
      * @param type
      * @return List<Goods> if select successful
      */
@@ -55,6 +62,7 @@ public interface GoodsDAO {
 
     /**
      * get the count group by goods type.
+     *
      * @return the list of type.
      */
     public List<Integer[]> getTypeNum();
