@@ -2,8 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01193dc7-120b-4f7f-98f2-b9f943678454" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/CriteriaQueryLayoutController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/CriteriaQueryLayoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/EditDialogController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/EditDialogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/LoginDialogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/MainLayoutController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/MainLayoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/ManageLayoutController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/ManageLayoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/Modern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/ReadController.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/control/ViewModern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/GoodsDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/GoodsTypeDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/ReadDAO.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/RetrievalDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/StorageDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/SupplierDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/impl/GoodsDAOimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/impl/GoodsTypeDAOimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/impl/RetrievalDAOimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/impl/StorageDAOimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/impl/SupplierDAOimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/dao/impl/UserDAOimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/model/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/model/GoodsType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/model/ReadModel.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/model/Retrieval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/model/Storage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/model/Supplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/model/TypeCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/resources/images/ReadResources.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/resources/images/backg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/resources/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/resources/images/cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/until/DebugLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/until/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/until/ReadUntil.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/until/SessionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/view/CriteriaQueryLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/view/EditDialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/view/Inventory2.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/view/LoginDialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/view/MainLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/view/ManageLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/db/inventory/view/ReadView.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/control/CriteriaQueryLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/control/CriteriaQueryLayoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/control/EditDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/control/EditDialogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/control/LoginDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/control/LoginDialogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/control/MainLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/control/MainLayoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/control/ManageLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/control/ManageLayoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/control/Modern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/control/Modern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/control/ReadController.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/control/ReadController.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/control/ViewModern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/control/ViewModern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/GoodsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/GoodsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/GoodsTypeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/GoodsTypeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/ReadDAO.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/ReadDAO.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/RetrievalDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/RetrievalDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/StorageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/StorageDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/SupplierDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/SupplierDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/impl/GoodsDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/impl/GoodsDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/impl/GoodsTypeDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/impl/GoodsTypeDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/impl/RetrievalDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/impl/RetrievalDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/impl/StorageDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/impl/StorageDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/impl/SupplierDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/impl/SupplierDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/dao/impl/UserDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/dao/impl/UserDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/model/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/model/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/model/GoodsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/model/GoodsType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/model/ReadModel.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/model/ReadModel.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/model/Retrieval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/model/Retrieval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/model/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/model/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/model/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/model/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/model/TypeCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/model/TypeCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/resources/images/ReadResources.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/resources/images/ReadResources.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/resources/images/backg4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/resources/images/backg4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/resources/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/resources/images/guest.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/resources/images/cat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/resources/images/cat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/until/DebugLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/until/DebugLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/until/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/until/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/until/ReadUntil.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/until/ReadUntil.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/until/SessionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/until/SessionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/view/CriteriaQueryLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/view/CriteriaQueryLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/view/EditDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/view/EditDialog.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/view/Inventory2.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/view/Inventory2.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/view/LoginDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/view/LoginDialog.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/view/MainLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/view/MainLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/view/ManageLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/view/ManageLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/db/inventory/view/ReadView.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/satan1a/inventory/view/ReadView.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+>>>>>>> 99b79db854ed845694cbbd396c13d2e9081f6b26
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +129,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
               <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+=======
+      <file leaf-file-name="Modern.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/control/Modern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backg4.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/resources/images/backg4.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="guest.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/resources/images/guest.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="LoginDialog.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/view/LoginDialog.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="8" column="302" selection-start-line="8" selection-start-column="302" selection-end-line="8" selection-end-column="302" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainLayout.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/view/MainLayout.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2204">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CriteriaQueryLayout.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/view/CriteriaQueryLayout.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CriteriaQueryLayoutController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/control/CriteriaQueryLayoutController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManageLayoutController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/control/ManageLayoutController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+>>>>>>> 99b79db854ed845694cbbd396c13d2e9081f6b26
             </state>
           </provider>
         </entry>
@@ -79,6 +266,12 @@
         <option value="$PROJECT_DIR$/src/cn/db/inventory/control/Modern.java" />
         <option value="$PROJECT_DIR$/src/cn/db/inventory/control/ViewModern.java" />
         <option value="$PROJECT_DIR$/src/cn/db/inventory/dao/impl/GoodsDAOimpl.java" />
+        <option value="$PROJECT_DIR$/src/com/satan1a/inventory/control/MainLayoutController.java" />
+        <option value="$PROJECT_DIR$/src/com/satan1a/inventory/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/satan1a/inventory/control/CriteriaQueryLayoutController.java" />
+        <option value="$PROJECT_DIR$/src/com/satan1a/inventory/control/ManageLayoutController.java" />
+        <option value="$PROJECT_DIR$/src/com/satan1a/inventory/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/com/satan1a/inventory/view/LoginDialog.fxml" />
       </list>
     </option>
   </component>
@@ -91,7 +284,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+>>>>>>> 99b79db854ed845694cbbd396c13d2e9081f6b26
     <option name="x" value="-7" />
     <option name="width" value="1247" />
     <option name="height" value="1047" />
@@ -122,6 +319,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="inventory" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Inventory2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inventory2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Inventory2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inventory2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -138,6 +349,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Toky\Desktop\projects\javaproject\Inventory2\src\com\satan1a\inventory\view" />
+      <recent name="C:\Users\Toky\Desktop\projects\javaproject\Inventory2\src\com\satan1a\inventory\until" />
+      <recent name="C:\Users\Toky\Desktop\projects\javaproject\Inventory2\src\com\satan1a\inventory\resources\images" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -152,12 +370,12 @@
   </component>
   <component name="RunManager">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.db.inventory.MainApp" />
+      <option name="MAIN_CLASS_NAME" value="com.satan1a.inventory.MainApp" />
       <module name="Inventory" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.db.inventory.*" />
+          <option name="PATTERN" value="com.satan1a.inventory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +441,16 @@
       <workItem from="1535617184553" duration="759000" />
       <workItem from="1535619296561" duration="4387000" />
       <workItem from="1535675287261" duration="1252000" />
-      <workItem from="1535676603478" duration="8561000" />
+      <workItem from="1535676603478" duration="9531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="27517000" />
+=======
+    <option name="totallyTimeSpent" value="26699000" />
+>>>>>>> 99b79db854ed845694cbbd396c13d2e9081f6b26
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -253,10 +475,17 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31914893" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13177083" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31914893" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Persistence" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13177083" />
+>>>>>>> 99b79db854ed845694cbbd396c13d2e9081f6b26
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867885" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -302,7 +531,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/resources/images/guet.jpg" />
     <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/control/BarChartLayoutController.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/view/ManageLayout.fxml">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/view/ManageLayout.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -311,70 +540,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/control/me.md" />
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/impl/UserDAOimpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/impl/UserDAOimpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/impl/RetrievalDAOimpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/impl/RetrievalDAOimpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/impl/StorageDAOimpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/impl/StorageDAOimpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/GoodsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/RetrievalDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/SupplierDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/GoodsTypeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/StorageDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="68" column="7" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/ReadDAO.MD">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/ReadDAO.MD">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -385,49 +572,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/model/GoodsType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/model/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/model/TypeCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/model/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/model/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/model/Retrieval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/model/ReadModel.MD">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/model/ReadModel.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="275">
@@ -437,32 +582,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/until/AlertUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/view/MainLayout.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/until/AlertUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="300">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/resources/images/background.jpg">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/resources/images/cat.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/resources/images/cat.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/resources/images/backg4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/resources/images/ReadResources.MD">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/resources/images/ReadResources.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="125">
@@ -472,21 +602,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/until/DebugLog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/until/DebugLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/until/HibernateUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/until/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/until/ReadUntil.MD">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/until/ReadUntil.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="75">
@@ -496,22 +626,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/until/SessionUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/until/SessionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/view/CriteriaQueryLayout.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/view/EditDialog.fxml">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/view/EditDialog.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -519,15 +641,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/view/LoginDialog.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/view/ReadView.MD">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/view/ReadView.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="225">
@@ -544,6 +658,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/model/Supplier.java">
+=======
     <entry file="file://$PROJECT_DIR$/build.fxbuild">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -555,55 +672,31 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/inventory.sql">
+>>>>>>> 99b79db854ed845694cbbd396c13d2e9081f6b26
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/control/CriteriaQueryLayoutController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/control/EditDialogController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/control/EditDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/control/LoginDialogController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/control/LoginDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/control/MainLayoutController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="183" column="7" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/control/ManageLayoutController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/control/Modern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/control/ReadController.md">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/control/ReadController.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="250">
@@ -613,24 +706,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/control/ViewModern.java">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/until/AlertUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/view/MainLayout.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/impl/GoodsDAOimpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#391#418#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/impl/GoodsDAOimpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/impl/GoodsTypeDAOimpl.java">
+>>>>>>> 99b79db854ed845694cbbd396c13d2e9081f6b26
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/control/MainLayoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/control/ViewModern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/RetrievalDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/GoodsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/GoodsTypeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/SupplierDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/StorageDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/model/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/model/GoodsType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/model/Retrieval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/model/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/model/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/model/TypeCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/control/Modern.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="249">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+=======
+        <state>
+          <caret selection-end-line="1" />
+>>>>>>> 99b79db854ed845694cbbd396c13d2e9081f6b26
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/control/CriteriaQueryLayoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/control/ManageLayoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/view/CriteriaQueryLayout.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/resources/images/backg4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/resources/images/guest.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/view/MainLayout.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2204">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/view/LoginDialog.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="225">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+=======
+        <state relative-caret-position="50">
+          <caret line="8" column="302" selection-start-line="8" selection-start-column="302" selection-end-line="8" selection-end-column="302" />
+>>>>>>> 99b79db854ed845694cbbd396c13d2e9081f6b26
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/db/inventory/dao/impl/GoodsTypeDAOimpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/satan1a/inventory/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="196">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

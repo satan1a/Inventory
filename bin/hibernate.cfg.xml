@@ -10,11 +10,11 @@
     <property name="hibernate.connection.password">root</property>
     <!--<property name="show_sql">true</property>-->
     <!--<property name="format_sql">true</property>-->
-    <mapping class="cn.db.inventory.model.Goods"/>
-    <mapping class="cn.db.inventory.model.GoodsType"/>
-    <mapping class="cn.db.inventory.model.Retrieval"/>
-    <mapping class="cn.db.inventory.model.Storage"/>
-    <mapping class="cn.db.inventory.model.Supplier"/>
-    <mapping class="cn.db.inventory.model.User"/>
+    <mapping class="com.satan1a.inventory.model.Goods"/>
+    <mapping class="com.satan1a.inventory.model.GoodsType"/>
+    <mapping class="com.satan1a.inventory.model.Retrieval"/>
+    <mapping class="com.satan1a.inventory.model.Storage"/>
+    <mapping class="com.satan1a.inventory.model.Supplier"/>
+    <mapping class="com.satan1a.inventory.model.User"/>
   </session-factory>
 </hibernate-configuration>

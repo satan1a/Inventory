@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="rootVBox" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="456.0" minWidth="514.0" prefHeight="603.0" prefWidth="647.0" style="-fx-background-color: #f0f0f0;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.satan1a.inventory.control.LoginDialogController">
+   <children>
+      <ImageView fitHeight="128.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/images/cat.jpg" />
+         </image>
+      </ImageView>
+      <HBox alignment="TOP_CENTER" prefHeight="68.0" prefWidth="647.0">
+         <children>
+            <Label prefHeight="47.0" prefWidth="246.0" text="仓储管理系统" textFill="#4f4d4d">
+               <font>
+                  <Font name="System Bold" size="41.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="187.0" prefWidth="847.0">
+         <children>
+            <GridPane alignment="CENTER" prefHeight="183.0" prefWidth="451.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="33.0" prefWidth="167.0" text="用户名：" textFill="#514e4e">
+                     <font>
+                        <Font name="System Bold Italic" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" prefHeight="34.0" prefWidth="199.0" text="密码：" textFill="#514e4e" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold Italic" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="userNameField" prefHeight="30.0" prefWidth="301.0" GridPane.columnIndex="1" />
+                  <PasswordField fx:id="passwordField" onAction="#handleLogin" prefHeight="30.0" prefWidth="301.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label fx:id="userNameErrorLabel" alignment="CENTER" prefHeight="70.0" prefWidth="84.0" text="请填写" textFill="#e34d4d" visible="false" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="passwordErrorLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="82.0" text="请填写" textFill="#e34d4d" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="143.0" minWidth="10.0" prefWidth="128.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="342.0" minWidth="10.0" prefWidth="300.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="294.0" minWidth="10.0" prefWidth="90.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </children>
+      </HBox>
+      <VBox prefHeight="30.0" prefWidth="847.0">
+         <children>
+            <Label fx:id="loginErrorLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="58.0" prefWidth="847.0" text="用户名或密码错误！" textAlignment="CENTER" textFill="RED" visible="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="57.0" prefWidth="647.0">
+         <children>
+            <Button fx:id="loginButton" mnemonicParsing="false" onAction="#handleLogin" style="-fx-background-color: #d0d0d0;" text="登录系统">
+               <font>
+                  <Font name="Sitka Display" size="22.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="2.0" prefWidth="96.0" visible="false" />
+            <Button fx:id="resetButton" mnemonicParsing="false" onAction="#handleReset" style="-fx-background-color: #d0d0d0;" text="重新输入">
+               <font>
+                  <Font name="Sitka Display" size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
