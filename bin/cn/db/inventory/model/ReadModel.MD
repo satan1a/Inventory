@@ -9,3 +9,4 @@ Model 层
     + Supplier      =》 货物的来源仓库信息
     + TypeCount     =》 货物的种类ID
     + User          =》 用户
+    

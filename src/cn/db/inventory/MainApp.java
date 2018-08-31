@@ -7,7 +7,6 @@ import cn.db.inventory.control.EditDialogController;
 import cn.db.inventory.control.LoginDialogController;
 import cn.db.inventory.control.MainLayoutController;
 import cn.db.inventory.model.User;
-import cn.db.inventory.until.AlertUtil;
 import javafx.application.Application;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.layout.*;
@@ -83,7 +82,6 @@ public class MainApp extends Application {
 			MainLayoutController controller = loader.getController();
 			controller.setMainApp(this);
 			primaryStage.show();
-			AlertUtil.showAlterDialog("预警","魅蓝note7库存下限警报！");
 			
 		} catch (IOException e) {
 			e.printStackTrace();

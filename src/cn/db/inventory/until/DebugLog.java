@@ -3,7 +3,7 @@ package cn.db.inventory.until;
 import java.text.SimpleDateFormat;
 
 /**
- * Created by jiyun on 2016/6/19.
+ * Created by Satan1a on 2018/8/24.
  */
 public class DebugLog {
 

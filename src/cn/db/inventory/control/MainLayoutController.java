@@ -2,7 +2,6 @@ package cn.db.inventory.control;
 
 import cn.db.inventory.MainApp;
 import cn.db.inventory.model.User;
-import cn.db.inventory.until.AlertUtil;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
