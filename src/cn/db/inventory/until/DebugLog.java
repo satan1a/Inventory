@@ -3,10 +3,10 @@ package cn.db.inventory.until;
 import java.text.SimpleDateFormat;
 
 /**
- * Created by Satan1a on 2018/8/24.
+ * 【日志信息】
+ *  功能：在控制台输出程序运行时的 Debug 信息
  */
 public class DebugLog {
-
     private static SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss SSS");
 
     public static void Log(String log) {

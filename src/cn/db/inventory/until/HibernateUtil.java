@@ -7,9 +7,6 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
 
-/**
- * Created by jiyun on 2016/6/30.
- */
 public class HibernateUtil {
     private static SessionFactory factory;
     private static ServiceRegistry serviceRegistry;
